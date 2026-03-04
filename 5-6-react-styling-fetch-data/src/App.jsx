@@ -224,13 +224,13 @@ export default function App() {
     fetchUsers();
   }, []);
 
-  /* =========================================================
+  /* ========================================================
      TODO 2.2 — FILTER USERS BY NAME
      File: src/App.jsx
-     ---------------------------------------------------------
+     --------------------------------------------------------
      Implement filtering logic inside this useEffect.
      Dependency array MUST be: [searchTerm, users]
-     ========================================================= */
+     ======================================================== */
   useEffect(() => {
     if (!searchTerm) {
       setFilteredUsers(users);
@@ -255,7 +255,7 @@ export default function App() {
 
   return (
     <div className="app">
-      {/* TODO 1.1: Set header className EXACTLY as in lab instructions */}
+      {/*TODO 1.1: Set header className EXACTLY as in lab instructions*/}
       <header className="bg-primary text-white py-3 mb-4 shadow">
         <Container>
           <h1 className="h2 mb-0">User Management Dashboard</h1>
