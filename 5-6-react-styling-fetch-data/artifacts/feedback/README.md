@@ -4,7 +4,7 @@
 
 - **Lab:** 5-6-react-styling-fetch-data
 - **Deadline (Riyadh / UTC+03:00):** 2026-03-04T20:59:00+03:00
-- **Last commit time (from git log):** 2026-03-04T10:09:10+03:00
+- **Last commit time (from git log):** 2026-03-04T10:12:01+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -73,18 +73,23 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 4: User details modal (UserModal.jsx) — **10/10**
+### TODO 4: User details modal (UserModal.jsx) — **0/10**
 
 **Checklist**
-- ✅ Renders <Modal> with show={show} and onHide={onHide}
-- ✅ Has title "User Details" inside <Modal.Title>
-- ✅ Uses <Modal.Header closeButton>
-- ✅ Body shows large avatar using className='user-avatar-large' and user.name.charAt(0)
-- ✅ Body shows Name, Email, Phone, Website each in its own <p>
-- ✅ Footer has ONE Close button that triggers onHide
+- ❌ Renders <Modal> with show={show} and onHide={onHide}
+- ❌ Has title "User Details" inside <Modal.Title>
+- ❌ Uses <Modal.Header closeButton>
+- ❌ Body shows large avatar using className='user-avatar-large' and user.name.charAt(0)
+- ❌ Body shows Name, Email, Phone, Website each in its own <p>
+- ❌ Footer has ONE Close button that triggers onHide
 
 **Deductions / Notes**
-- ✅ No deductions. Good job!
+- ❗ Missing: Renders <Modal> with show={show} and onHide={onHide}
+- ❗ Missing: Has title "User Details" inside <Modal.Title>
+- ❗ Missing: Uses <Modal.Header closeButton>
+- ❗ Missing: Body shows large avatar using className='user-avatar-large' and user.name.charAt(0)
+- ❗ Missing: Body shows Name, Email, Phone, Website each in its own <p>
+- ❗ Missing: Footer has ONE Close button that triggers onHide
 
 ---
 
